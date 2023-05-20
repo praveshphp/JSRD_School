@@ -1,0 +1,286 @@
+.alert ol {
+    padding: 0 47px;
+}
+
+.alert ol li {
+    list-style: decimal;
+}
+
+[data-header-position=fixed] .content-body {
+    padding-top: 5.5rem;
+}
+
+.content-body .container-fluid {
+    padding-top: 0px;
+}
+
+.form-control.is-invalid {
+    border-right: -1px !important;
+}
+
+.light .card {
+    background-color: rgb(252 252 252);
+    ;
+    box-shadow: 0rem 0.3125rem 0.3125rem 0rem rgb(82 63 105 / 5%);
+}
+
+.light .card-header {
+    border-color: #EEEEEE;
+}
+
+.light {
+    color: var(--bs-body-color);
+}
+
+.light h1,
+.light .h1,
+.light h2,
+.light .h2,
+.light h3,
+.light .h3,
+.light h4,
+.light .h4,
+.light h5,
+.light .h5,
+.light h6,
+.light .h6,
+.light .bootstrap-select,
+.light .dropdown-toggle,
+.light .filter-option-inner-inner {
+    color: #000 !important
+}
+
+.light .form-control {
+    background-color: transparent;
+    border-color: #EEEEEE;
+    color: #000;
+}
+
+.light input[type="file"]::file-selector-button {
+    font-weight: bold;
+    padding: .5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    height: 60px;
+    position: relative;
+    left: -10px;
+}
+
+.light .bootstrap-select .btn {
+    border-color: #EEEEEE !important;
+}
+
+.light .bootstrap-select .dropdown-menu {
+    border-color: #EEEEEE !important;
+
+}
+
+.light .dropdown-menu {
+    background-color: rgb(252 252 252);
+    box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 10%);
+    color: #000;
+    border: 1px solid;
+}
+
+.light .dropdown-menu .dropdown-item.selected,
+.light .dropdown-menu .dropdown-item.selected.active,
+.light .dropdown-menu .dropdown-item.active,
+.light .dropdown-menu .dropdown-item:hover,
+.light .dropdown-menu .dropdown-item:focus {
+    background-color: rgb(252 252 252);
+    color: #7e7e7e;
+}
+
+.light .dropdown-menu,
+.light .dropdown-item {
+    color: #000000;
+}
+
+.light .dropdown-menu:hover,
+.light .dropdown-item:hover {
+    color: #ccc;
+}
+
+.light .header-left .dashboard_bar,
+.light .star-review span,
+.light .table strong {
+    color: #7e7e7e;
+}
+
+.light .pagination .page-item .page-link {
+    border-color: #EEEEEE;
+}
+
+.light .create-new-link {
+    color: #e66025;
+    font-size: 14px;
+}
+
+.light .create-new-link i {
+    font-size: 14px;
+
+}
+
+.light .create-new-link:hover {
+    color: black;
+}
+
+.light .breadcrumb-item a {
+    color: #e66025;
+}
+
+.light .breadcrumb-item a:hover {
+    color: black;
+}
+
+.ui-autocomplete.dropdown-menu {
+    z-index: 9;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: 2px;
+    padding: 7px;
+}
+
+.form-head .btn-primary {
+    background-color: #d5d3d3;
+    border: none;
+}
+
+.content-body a {
+    color: #6b6b6c !important;
+}
+
+.content-body a:hover {
+    color: #7e7e7e !important;
+}
+
+.content-body .btn-danger {
+
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+[data-theme-version="dark"] .weather-btn {
+    background: #b5b2b2;
+}
+
+[data-theme-version="dark"] .form-control.custom-image-select .dropdown-toggle,
+[data-theme-version="dark"] .form-control.custom-image-select-2 .dropdown-toggle {
+    background: #414040 !important;
+}
+
+[data-theme-version="dark"] .dropdown-menu .dropdown-item.selected,
+[data-theme-version="dark"] .dropdown-menu .dropdown-item.selected.active,
+[data-theme-version="dark"] .dropdown-menu .dropdown-item.active,
+[data-theme-version="dark"] .dropdown-menu .dropdown-item:hover,
+[data-theme-version="dark"] .dropdown-menu .dropdown-item:focus {
+    background-color: #414040;
+}
+
+[data-theme-version="dark"] .bootstrap-select .dropdown-menu {
+    border-color: #414040 !important;
+}
+
+[data-theme-version="dark"] .dropdown-menu {
+    background-color: #414040;
+}
+
+[data-theme-version="dark"] .search-area .input-group-append {
+    margin-left: -6px !important;
+}
+
+[data-theme-version="dark"] .search-area .input-group-append .input-group-text {
+    background: #414040;
+}
+
+[data-theme-version="dark"] .header-left input#autosuggest-property {
+    background-color: #414040 !important;
+    color: #fff !important;
+}
+
+.header-right .notification_dropdown .nav-link svg path {
+    fill: #000;
+}
+
+[data-theme-version="dark"] .header-right .dropdown .nav-link {
+    color: #000;
+    background: #fff;
+}
+
+.header-right .notification_dropdown .nav-link svg path {
+    fill: #000 !important;
+}
+
+[data-theme-version="dark"] .header-right .dropdown .nav-link svg#icon-full path,
+[data-theme-version="dark"] .header-right .dropdown .nav-link svg#icon-minimize path {
+    stroke: #000;
+}
+
+.nav-header .svg-logo-rect {
+    fill: white;
+}
+
+.nav-header .svg-logo-rect path {
+    fill: black;
+}
+
+.timeline h6 {
+    color: #fff !important;
+}
+
+[data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu>li.mm-active>a {
+    background-color: #0717f1;
+}
+
+[data-theme-version="dark"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu>li:hover>a {
+    background: #3943cd;
+}
+
+[data-theme-version="dark"] .menu-toggle .deznav .metismenu li>ul {
+    background-color: #414040 !important;
+    border-color: #414040 !important;
+}
+
+[data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .nav-header .nav-control .hamburger .line {
+    background-color: #fff !important;
+}
+
+.pulse-css,
+.pulse-css:after,
+.pulse-css:before {
+    background-color: #e0e0e0;
+}
+
+.header-right .header-profile .dropdown-menu a:hover,
+.header-right .header-profile .dropdown-menu a:focus,
+.header-right .header-profile .dropdown-menu a.active {
+    color: #6b6b6c;
+}
+.gm-style-iw-d a{
+    color: #fff !important;
+}
+.gm-style-iw-d a:hover{
+    color: #fff !important;
+    text-decoration: underline;
+}
+.gm-style-iw-d h2{
+    color: #fff !important;
+}
+
+.footer .copyright a{
+    color: #6b6b6c!important;
+    text-decoration: none;
+}
+.footer .copyright a:hover{
+    color: #6b6b6c!important;
+    text-decoration: underline;
+}
+[data-theme-version="dark"] .table td {
+    color: #000 !important;
+}
+[data-theme-version=dark] .swal2-popup{
+    background-color:#fff;
+}
+[data-theme-version="dark"] .swal2-popup .swal2-styled:focus {
+    box-shadow: 0 0 0 2px var(--rgba-primary-1), 0 0 0 4px var(--rgba-primary-8);
+}
